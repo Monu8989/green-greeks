@@ -940,14 +940,14 @@ background-color: rgb(248,249,250);
 
       }  
       .card1{
-        width: 400px;
+        width: 300px;
         height: auto;
         padding: 10px;
         margin: 0;
         
       }
       .card{
-        width: 400px;
+        width: 300px;
         height: auto;
         padding: 10px;
         margin-top: 30px;
@@ -1005,7 +1005,7 @@ background-color: rgb(248,249,250);
         height: auto;
     }
     .right2 img{
-        width: 400px;
+        width: 370px;
         padding-block: 20px;
     }
     .cont-4{
@@ -1126,15 +1126,22 @@ background-color: rgb(248,249,250);
     .box-cont5{
         width: 100%;
        height: auto;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
        
     }
     .cards{
             width: 300px;
-            height: 500px;
+            height: 300px;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            margin-block: 10px;
+            border: 1px solid gray;
+            border-radius: 5px 50px 5px 5px;
     }
     .cards img{
         width: 130px;
@@ -1151,11 +1158,15 @@ background-color: rgb(248,249,250);
     }
     .cards3{
         width: 300px;
-        height: 500px;
+        height: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin-block: 10px;
+        border: 1px solid gray;
+        border-radius: 5px 50px 5px 5px;
+        
 }
 .cards3 img{
     width: 100px;
@@ -1197,6 +1208,7 @@ background-color: rgb(248,249,250);
         height: 200px;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
       margin: 10px;
 
     }
